@@ -96,6 +96,12 @@ footer {
     margin-bottom: 8px;  /* space between bullets */
 }
 
+.edu ul {
+    padding-left: 20px;  /* adds space from the left edge */
+    margin: 5px 0;       /* adjusts spacing above/below the list */
+}
+
+
 
 
 
