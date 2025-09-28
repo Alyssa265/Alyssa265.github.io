@@ -83,5 +83,15 @@ footer {
     color: white;
 }
 
+.job ul {
+    padding-left: 20px;  /* adds space from the left edge */
+    margin: 5px 0;       /* adjusts spacing above/below the list */
+}
+
+.job li {
+    margin-bottom: 8px;  /* space between bullets */
+}
+
+
 
 
