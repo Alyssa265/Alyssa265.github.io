@@ -5,12 +5,32 @@
     box-sizing: border-box;
 }
 
-/* Body styling */
+/* Body styling with stylish gradient background */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #222;
-    background-color: #e1e5ea;
+    background: linear-gradient(135deg, #cfd9df, #e2ebf0); /* subtle diagonal gradient */
+    background-attachment: fixed; /* keeps gradient in place on scroll */
+}
+
+/* Optional: add subtle pattern overlay */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: repeating-linear-gradient(
+        45deg,
+        rgba(255,255,255,0.05),
+        rgba(255,255,255,0.05) 10px,
+        rgba(0,0,0,0.02) 10px,
+        rgba(0,0,0,0.02) 20px
+    );
+    pointer-events: none;
+    z-index: -1;
 }
 
 /* Header styling */
@@ -59,14 +79,15 @@ nav a:focus {
     outline: none;
 }
 
-/* Section styling with background boxes */
+/* Section styling with stylish background */
 section {
     padding: 40px 20px;
     max-width: 800px;
     margin: 20px auto;
     background: linear-gradient(145deg, #ffffff, #f0f4f8); /* subtle gradient behind white box */
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15); /* stronger shadow for more depth */
+    position: relative;
 }
 
 /* Section headers */
@@ -114,20 +135,20 @@ h2 {
     list-style-position: outside; /* ensures bullets align properly */
 }
 
-
 /* Footer styling */
 footer {
     text-align: center;
     padding: 20px;
     background-color: #2c3e50;
     color: white;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.1);
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .profile-pic, .project-img {
         width: 120px;
-        height: 120px;
+        height: auto;
     }
 
     section {
@@ -140,4 +161,3 @@ footer {
         margin: 10px 0;
     }
 }
-
