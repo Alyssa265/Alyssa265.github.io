@@ -145,3 +145,14 @@ footer {
     }
 }
 
+figure {
+    text-align: center; /* centers both the image and the caption */
+    margin: 20px auto;  /* optional: adds some vertical spacing */
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 8px;
+}
+
