@@ -101,6 +101,42 @@ footer {
     margin: 5px 0;       /* adjusts spacing above/below the list */
 }
 
+.project1-pic {
+    width: 80px;       /* scales it down */
+    height: 150px;      /* keeps consistent size */
+    object-fit: cover;  /* crops to fit without distortion */
+    border: 3px solid #0047ab; /* change color */
+    display: block;
+    margin: 0 auto;     /* centers it */
+}
+
+.project2-pic {
+    width: 80px;       /* scales it down */
+    height: 150px;      /* keeps consistent size */
+    object-fit: cover;  /* crops to fit without distortion */
+    border: 3px solid #0047ab; /* change color */
+    display: block;
+    margin: 0 auto;     /* centers it */
+}
+
+.pro1 ul {
+    padding-left: 20px;  /* adds space from the left edge */
+    margin: 5px 0;       /* adjusts spacing above/below the list */
+}
+
+.pro1 li {
+    margin-bottom: 8px;  /* space between bullets */
+}
+
+.pro2 ul {
+    padding-left: 20px;  /* adds space from the left edge */
+    margin: 5px 0;       /* adjusts spacing above/below the list */
+}
+
+.pro2 li {
+    margin-bottom: 8px;  /* space between bullets */
+}
+
 
 
 
