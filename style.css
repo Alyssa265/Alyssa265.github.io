@@ -10,7 +10,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #222;
-    background: linear-gradient(135deg, #e6f0ff, #ffffff); /* soft gradient from light blue to white */
+    background: linear-gradient(135deg, ##8AB9FF, #E6F0FF); /* soft gradient from light blue to white */
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -155,4 +155,5 @@ figcaption {
     color: #555;
     margin-top: 8px;
 }
+
 
